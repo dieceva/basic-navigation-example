@@ -32,7 +32,7 @@ nav {
     background-color: white;
     border: solid;
     vertical-align: center  ;
-    border-color: purple;
+    border-color: rgb(25, 6, 25);
     border-width: 10px;
     text-align: center;
     margin-top: 10px;
@@ -55,7 +55,7 @@ main {
     display: inline-block;
     background-color: rgb(48, 54, 61);
     width: 1407px;
-    height: 2000px;
+    height: 1800px;
     margin-bottom: 10px;
     margin-top: 10px;
     text-align: center;
@@ -66,6 +66,7 @@ main {
 /* Styles for the <article> sections */
 article {
     display: block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     border-style: solid;
     border-width: 9px;
     border-color: #333;
@@ -74,13 +75,13 @@ article {
     padding-left: 10px;
     padding-right: 10px;
     margin-right: 10px;
-    background-color: #7c4f96;
+    background-color: #a4991bde;
     width: 800px;
     height: 400px;
 }
-div {
+aside {
     box-sizing: border-box;
-    background-color: lightgreen;
+    background-color: rgb(144, 199, 238);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     display: inline-block;
     vertical-align: middle;
@@ -91,17 +92,10 @@ div {
     margin-left: 800px;
     margin-right: 0px;
 }
-aside {
-    display: block;
-    border-style: solid;
-    margin: 0px;
-    border-width: 5px;
-    border-color: #a3cf1e;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 5px;
-    padding-right: 5px;
-    background-color: #7c4f96;
+span    {
+    display: inline-block;
+    margin-right: 0px;
+    margin-left: 100;
 }
 /* Class Selector */
 .specific   {
@@ -155,59 +149,44 @@ aside {
     text-decoration: none;
 } 
     
+#mission {
+    width: 400px;
+    border: solid;
+    border-color: #a3cf1e;
+}
+#contact    {
+    display: inline-block;
+    height: 550px;
+}
+#about    {
+        display: inline-block;
+        height: 300px;
+}
+#vision    {
+    display:inline-block;
+    border: solid;
+    border-color: #a3cf1e;
+    display: inline-block;
+    width: 400px;
+    margin-top: 400px;
+    margin-bottom: -100px;
+    margin-left: 100px;
+}
+#mating {
+    box-sizing: border-box;
+    height: 300px;
+    width: 950px;
+    
+}
 
-#dota   {
-    display: block; 
-    font-size: larger;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
-    height: 500;
-    width: 500;
-    margin: 100px 200px -200px 150px;
-    padding: 10px 10px 10px 10px;
-} 
-#clash  {
-    display: block;
-    font-size: larger;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    height: 500;
-    width: 500;
-    margin: 210px 100px -685px 150px;
-    padding: 10px 10px 10px 10px;
+#baby   {
+    height: 450px;
 }
-#age  {
-    display: block;
-    font-size: larger;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    height: 500;
-    width: 500;
-    margin: -210px 100px 0px 250px;
-    padding: 10px 10px 10px 10px;
-}
-#fortnite  {
-    display: block;
-    font-size: larger;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    height: 500;
-    width: 500;
-    margin: 10px 10px 10px 250px;
-    padding: 10px 10px 10px 10px;
-}
-#favourites {
-    background-color: #7c4f96;
-    width: 1100px;
-    text-align: center;
-    font-size: x-large;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-left: 150px;
-    margin-bottom: -80px;
-    border-style: solid;
-    border-width: 9px;
-    border-color: #333;
+#diverse    {
+    height: 450px;
 }
 #main-description   {
-    background-color: #a73bea;
+    background-color: #389eca;
     width: 1407px;
     text-align: center;
     font-size: large;
@@ -283,7 +262,8 @@ aside {
 /* Grouping Selectors */
 h2 {
     display: inline-block;
-    background-color: #bccbf2;
+    background-color: #18954e85;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
     margin: 1px;
     padding: 10px;
@@ -309,7 +289,7 @@ footer {
     margin-top: 1px;
     margin-bottom: 1px;
     padding-bottom: 1px;
-    background-color: rgba(99, 7, 138, 0.538);
+    background-color: rgba(7, 83, 138, 0.538);
     text-align: center;
     width: 1407px;
 }
